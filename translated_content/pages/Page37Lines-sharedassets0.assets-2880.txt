@@ -1,0 +1,22 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 550
+ 1 string m_Name = "Page37Lines"
+ 0 string textLines
+  1 Array Array (5 items)
+   0 int size = 5
+   [0]
+    1 string data = "“Что-то случилось? Ты хорошо себя чувствуешь?”"
+   [1]
+    1 string data = "“О, да, да... Я просто. Я пытаюсь... э...”"
+   [2]
+    1 string data = "“Прости, но... по-моему, это моя коробка там сзади...”"
+   [3]
+    1 string data = "“Ну да! Я имею в виду, так оно и есть. Ты же знаешь!” Ариэль неловко рассмеялась, капелька пота капала с меха у ее виска."
+   [4]
+    1 string data = "“Дорогая, ты ужасно выглядишь!” ахнула Селестия. “Ты заболела? Или... снова пришла на работу под кайфом?”\r\n"

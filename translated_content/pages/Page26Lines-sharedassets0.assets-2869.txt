@@ -1,0 +1,26 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 550
+ 1 string m_Name = "Page26Lines"
+ 0 string textLines
+  1 Array Array (7 items)
+   0 int size = 7
+   [0]
+    1 string data = "“Потому что я знаю тебя, Ария. Ты всегда была такой. Ты слишком заботишься о том, что я думаю, понимаешь?”"
+   [1]
+    1 string data = "Ария пошатнулась, как от пощечины. “О чем ты говоришь?”"
+   [2]
+    1 string data = "“Ты хочешь, чтобы я думал, что ты крутая. Я имею в виду, ты хочешь, чтобы все думали, что ты крутая, но на деле... ты очень, очень хочешь, чтобы Я думала, что ты крутая.”"
+   [3]
+    1 string data = "“И что?”"
+   [4]
+    1 string data = "“Итак, ты заставляешь себя делать то, чего не хочешь и не должна делать, потому что думаешь, что это произведет на меня впечатление.”"
+   [5]
+    1 string data = "“Что? Когда это я вообще--”"
+   [6]
+    1 string data = "Ну..."

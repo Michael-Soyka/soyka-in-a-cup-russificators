@@ -1,0 +1,14 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 550
+ 1 string m_Name = "Page18Lines"
+ 0 string textLines
+  1 Array Array (1 items)
+   0 int size = 1
+   [0]
+    1 string data = "В этот момент Ариэль почувствовала укол вины в животе. Этот голос снова отличался от уверенной в себе женщины, которую она услышала, когда впервые ворвалась сюда. \n\nЭто был тот же самый голос, который она слышала так много раз прежде, и в ее голове вспыхнула серия образов."

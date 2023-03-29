@@ -1,0 +1,18 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 550
+ 1 string m_Name = "Page39Lines"
+ 0 string textLines
+  1 Array Array (3 items)
+   0 int size = 3
+   [0]
+    1 string data = "“Да.”"
+   [1]
+    1 string data = "“‘Прости, дорогая, ты проиграла пари? Я не хотел тебя смущать, просто... Я просто волнуюсь, понимаешь!”"
+   [2]
+    1 string data = "“Да, я проиграла пари. Да, мне неудобно. Нет, я не хочу об этом говорить.”\r\n"

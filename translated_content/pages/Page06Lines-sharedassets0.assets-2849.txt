@@ -1,0 +1,22 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 550
+ 1 string m_Name = "Page06Lines"
+ 0 string textLines
+  1 Array Array (5 items)
+   0 int size = 5
+   [0]
+    1 string data = "Ария попыталась скрыть румянец, скрестив крылья на груди: “Эй, это моя комната! Кроме того, я стримлю только свое лицо, так что мне не нужно надевать штаны, если я не хочу!”"
+   [1]
+    1 string data = "“Одна из твоих мам сегодня стирает?”"
+   [2]
+    1 string data = "“Я вполне способна стирать сама, Ариэль!”"
+   [3]
+    1 string data = "“Ну, конечно, это так, но это не значит, что ты действительно это делаешь.”\r\n"
+   [4]
+    1 string data = "Ария нахмурилась так, что Ариэль поняла, что она абсолютно права.\n"

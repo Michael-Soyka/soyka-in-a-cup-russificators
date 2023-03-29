@@ -1,0 +1,18 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 550
+ 1 string m_Name = "Page40Lines"
+ 0 string textLines
+  1 Array Array (3 items)
+   0 int size = 3
+   [0]
+    1 string data = "“Не волнуйся! Я никому не расскажу, можешь на меня рассчитывать!” Селестия быстро расплатилась за книгу, изящно сунув ее в пастельную сумку. "
+   [1]
+    1 string data = "“Хотя, я думаю, тебе следует знать...""
+   [2]
+    1 string data = "“У тебя очень красивая задница!” \n\Селестия быстро подмигнула через плечо и поспешно вышла из магазина, оставив Ариэль, к счастью, снова одну.\r\n"

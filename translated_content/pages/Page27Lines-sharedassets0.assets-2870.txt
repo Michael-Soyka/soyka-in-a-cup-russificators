@@ -1,0 +1,18 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 550
+ 1 string m_Name = "Page27Lines"
+ 0 string textLines
+  1 Array Array (3 items)
+   0 int size = 3
+   [0]
+    1 string data = "“В тот раз, когда ты попытался съесть целую ложку корицы, потому что я сказала тебе, что это невозможно? "
+   [1]
+    1 string data = "В тот раз, когда ты сломала руку, потому что хотела показать мне, как хорошо ты лазаешь? "
+   [2]
+    1 string data = "В тот раз, когда ты не спала целую неделю, потому что настаивала на том, что хочешь смотреть со мной фильмы ужасов, и думала, что в твоем шкафу прячется серийный убийца? Время..."

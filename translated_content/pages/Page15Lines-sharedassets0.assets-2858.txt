@@ -1,0 +1,14 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 550
+ 1 string m_Name = "Page15Lines"
+ 0 string textLines
+  1 Array Array (1 items)
+   0 int size = 1
+   [0]
+    1 string data = "Прежде чем Ариэль успела осознать, что происходит, Ария взяла все под свой контроль. Она прижала свое хрупкое, но мускулистое тело к Ариэль, настойчиво толкая ее на спину.\n \nАриэль поморщилась, когда Ария перекатилась через ее хвост, но после нескольких быстрых корректировок, Ария удобно оседлала ее бедра, ее обнаженные губы были так, так близко к ноющему месту под юбкой Ариэль.\r\n"

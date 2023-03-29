@@ -1,0 +1,18 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 550
+ 1 string m_Name = "Page36Lines"
+ 0 string textLines
+  1 Array Array (3 items)
+   0 int size = 3
+   [0]
+    1 string data = "“Доброе утро, Ариэль! Как поживаешь, дорогая? Поддерживаешь водный баланс?”\r\n"
+   [1]
+    1 string data = "“Да, я в порядке...” "
+   [2]
+    1 string data = "Ариэль повернула голову и увидела забронированную коробку Селестии всего в трех шагах справа. Три шага. Если бы она так сильно двигалась, Селестия наверняка заметила бы это...\r\n"

@@ -1,0 +1,22 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 550
+ 1 string m_Name = "Page24Lines"
+ 0 string textLines
+  1 Array Array (5 items)
+   0 int size = 5
+   [0]
+    1 string data = "Ария быстро спрыгнула с колен подруги и села прямо на кровати, как нервный ребенок, посылая еще один укол вины в сердце Ариэль, и за то, что причинила боль подруге, и за то, что хотела ее."
+   [1]
+    1 string data = "“Ариэль?”"
+   [2]
+    1 string data = "“Ничего! Это просто... Я знаю, что ты не против трахаться со своими друзьями, и я подумала, что мы друзья и...”"
+   [3]
+    1 string data = "“Да, Ария, мы друзья, но--”"
+   [4]
+    1 string data = "“Что на тебя нашло?”"

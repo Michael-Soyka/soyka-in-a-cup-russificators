@@ -1,0 +1,18 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 550
+ 1 string m_Name = "Page38Lines"
+ 0 string textLines
+  1 Array Array (3 items)
+   0 int size = 3
+   [0]
+    1 string data = "“Нет! Ни то, ни другое, я просто...”"
+   [1]
+    1 string data = "Она вздохнула. Избежать этого было невозможно. Селестия увидит, и так оно и будет. Она повернулась, побежденная, подошла к коробке и принесла мангу Селесты на прилавок.\r\n"
+   [2]
+    1 string data = "Ариэль вздохнула, когда Селестия уставилась на нее широко раскрытыми глазами. “Ох.”\r\n"

@@ -1,0 +1,14 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 550
+ 1 string m_Name = "Page20Lines"
+ 0 string textLines
+  1 Array Array (1 items)
+   0 int size = 1
+   [0]
+    1 string data = "Что, черт возьми, они делают?"

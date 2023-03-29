@@ -1,0 +1,16 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 550
+ 1 string m_Name = "Page16Lines"
+ 0 string textLines
+  1 Array Array (2 items)
+   0 int size = 2
+   [0]
+    1 string data = "Ариэль без раздумий прижалась к ней, притягивая Арию в еще один страстный поцелуй, прежде чем поцеловать ее в шею. \n\nМордой она отодвинула воротник футболки, нежно посасывая пушистые перья на ключице.\r\n"
+   [1]
+    1 string data = "Ария застонала, звук был менее спонтанным, чем ожидала Ариэль, как будто она чему-то научилась от просмотра очень плохого порно, когда она дико уперлась бедрами в Ариэль."

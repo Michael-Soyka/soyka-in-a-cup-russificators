@@ -1,0 +1,20 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 550
+ 1 string m_Name = "Page22Lines"
+ 0 string textLines
+  1 Array Array (4 items)
+   0 int size = 4
+   [0]
+    1 string data = "О, как она жаждала прикосновений! Но..."
+   [1]
+    1 string data = "“Ариэль?” "
+   [2]
+    1 string data = "“Просто... нет, извини, я сегодня не в настроении, понимаешь?”"
+   [3]
+    1 string data = "“Я сделала что-то не так?”"

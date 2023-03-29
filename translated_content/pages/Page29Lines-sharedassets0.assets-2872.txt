@@ -1,0 +1,20 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 550
+ 1 string m_Name = "Page29Lines"
+ 0 string textLines
+  1 Array Array (4 items)
+   0 int size = 4
+   [0]
+    1 string data = "“Могу я рассказать тебе секрет?”"
+   [1]
+    1 string data = "“Я слушаю.” "
+   [2]
+    1 string data = "Ария старалась держать свой тон отчужденным и раздраженным, но было ясно, что ее настроение немного улучшилось от перспективы услышать секрет от Ариэль."
+   [3]
+    1 string data = "“Ты самый крутой человек, которого я знаю. Я всегда так думала.”"
