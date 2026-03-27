@@ -33,7 +33,7 @@ ECHO                     │        %ESC%[94mt.me/soykainthecup%ESC%[0m         
 ECHO                     └───────────────────────────────────┘
 ECHO:
 ECHO:
-PAUSE
+TIMEOUT 10
 
 :prepare
 IF EXIST "%tempOutputDir%" RMDIR /s /q "%tempOutputDir%"
