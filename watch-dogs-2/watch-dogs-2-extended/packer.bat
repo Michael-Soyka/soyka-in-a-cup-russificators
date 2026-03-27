@@ -36,15 +36,15 @@ ECHO:
 PAUSE
 
 :prepare
-IF EXIST %tempOutputDir% RMDIR /s /q %tempOutputDir%
-IF EXIST %locFilePath% GOTO tools
+IF EXIST "%tempOutputDir%" RMDIR /s /q "%tempOutputDir%"
+IF EXIST "%locFilePath%" GOTO tools
 
 ECHO %ESC%[31mERROR%ESC%[0m: loc file was not found!
 TIMEOUT 10
 EXIT
 
 :tools
-IF EXIST %WD2Extract% IF EXIST %WD2Pack% GOTO wd2efilequestion
+IF EXIST "%WD2Extract%" IF EXIST "%WD2Pack%" GOTO wd2efilequestion
 
 ECHO %ESC%[31mERROR%ESC%[0m: %ESC%[94mWD2Extract%ESC%[0m or %ESC%[94mWD2Pack%ESC%[0m was not found in tools dir!
 TIMEOUT 10
@@ -67,7 +67,7 @@ GOTO wd2efilequestion
 CLS
 ECHO Extracting...
 
-%WD2Extract% "%wd2ePatchFilePath%" "%tempOutputDir%"
+"%WD2Extract%" "%wd2ePatchFilePath%" "%tempOutputDir%"
 
 ECHO Extracted!
 TIMEOUT 2
@@ -91,7 +91,7 @@ IF %ERRORLEVEL% NEQ 0 (
 CLS
 ECHO Packing...
 
-%WD2Pack% "%tempOutputDir%" "%currentDir%\%patchFile%"
+"%WD2Pack%" "%tempOutputDir%" "%currentDir%\%patchFile%"
 
 ECHO Done!
 TIMEOUT 2
@@ -100,7 +100,7 @@ TIMEOUT 2
 CLS
 ECHO Cleaning...
 
-IF EXIST %tempOutputDir% RMDIR /s /q %tempOutputDir%
+IF EXIST "%tempOutputDir%" RMDIR /s /q "%tempOutputDir%"
 
 IF %ERRORLEVEL% NEQ 0 (
 	ECHO %ESC%[31mERROR%ESC%[0m: Cleanup error! Don't worry, just delete the %ESC%[94mtemp%ESC%[0m folder by yourself! %ERRORLEVEL%
