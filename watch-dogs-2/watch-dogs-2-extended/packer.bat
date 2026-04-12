@@ -53,6 +53,9 @@ EXIT
 :wd2efilequestion
 CLS
 SET /P wd2ePatchFilePath=Provide the file patch to the WD2E %ESC%[94m%patchFile%%ESC%[0m: 
+
+SET "wd2ePatchFilePath=%wd2ePatchFilePath:"=%"
+
 FOR %%I IN ("%wd2ePatchFilePath%") DO SET "wd2ePatchFileName=%%~nxI"
 
 IF /I "%wd2ePatchFileName%" == "%patchFile%" IF EXIST "%wd2ePatchFilePath%" GOTO extract
@@ -112,5 +115,5 @@ TIMEOUT 2
 
 :end
 CLS
-ECHO File was repacked! Now just copy %ESC%[94m%patchFile%%ESC%[0m to the game's %ESC%[94mdata_win64%ESC%[0m dir!
+ECHO File was repacked! Now just copy %ESC%[94mpatch files%ESC%[0m to the game's %ESC%[94mdata_win64%ESC%[0m dir!
 PAUSE
